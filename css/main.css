@@ -13,16 +13,24 @@
     min-height: 100vh;
 }
 .title{
-    font-size: 80px !important;
+    font-size: 80px;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 }
 
+/* #home{
+    position: sticky;
+    top: 0;
+} */
 /* text reveal */
 #container {
     padding: 100px 20px 0;
     max-width: 960px;
     margin: 0 auto;
   }
-  h1 span {
+  .lead-title {
     margin: 0;
     text-align: center;
     font-size: 300px;
@@ -79,4 +87,19 @@
   transform: scale(.9);
   z-index: -1;
   transition: .5s;
+}
+
+
+/* about icons */
+
+.icons img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    
+}
+
+.icons{
+    text-decoration: none !important;
+    margin-top: 5px;
 }
