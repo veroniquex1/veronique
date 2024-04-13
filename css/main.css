@@ -35,6 +35,10 @@ h5, h5, p{
     font-style: normal;
 }
 
+#icon-box img{
+  padding: 5px;
+}
+
 /* #home{
     position: sticky;
     top: 0;
@@ -47,8 +51,8 @@ h5, h5, p{
   }
   .lead-title {
     margin: 0;
-    text-align: center;
-    font-size: 300px;
+    /* text-align: center; */
+    /* font-size: 300px; */
     overflow: hidden;
     line-height: 1;
     font-family: "League Spartan", sans-serif;
