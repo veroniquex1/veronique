@@ -26,6 +26,7 @@ h5, h5, p{
 
 .page{
     min-height: 100vh;
+    margin-left: 10px;
 }
 .title{
     font-size: 80px;
